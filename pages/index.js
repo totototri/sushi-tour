@@ -85,6 +85,35 @@ const SushiTourWebsite = () => {
               </div>
             </section>
 
+            {/* Sushi Chronicles Section */}
+            <section className="bg-white p-8 rounded-lg shadow-lg">
+              <h3 className="text-2xl font-bold mb-6 text-center">Sushi Chronicles</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="space-y-4">
+                  <h4 className="text-xl font-semibold">The Origins of Sushi</h4>
+                  <p className="text-gray-600">
+                    Sushi&#39;s origins date back to Southeast Asia in the 4th century BC. Initially, it was a preservation method 
+                    where salted fish was fermented with rice. This preservation technique spread to Japan during the Nara period.
+                  </p>
+                  <p className="text-gray-600">
+                    During the Edo period (1603-1867), sushi evolved into its modern form. Fast-eating &#34;hayazushi&#34; was invented, 
+                    and later, &#34;nigirizushi&#34; emerged, combining raw fish with vinegared rice.
+                  </p>
+                </div>
+                <div className="space-y-4">
+                  <h4 className="text-xl font-semibold">The Art of Sushi Rice</h4>
+                  <p className="text-gray-600">
+                    The choice between red and white vinegar reflects a rich cultural heritage. Red vinegar (akazu), made from sake lees, 
+                    was traditionally used in Edo-mae sushi, creating a deeper, more complex flavor profile.
+                  </p>
+                  <p className="text-gray-600">
+                    Today&#39;s sushi rice is typically served at body temperature or slightly below (35-37°C), 
+                    a practice that enhances both taste and texture.
+                  </p>
+                </div>
+              </div>
+            </section>
+
             {/* About Section */}
             <section className="bg-gray-50 p-8 rounded-lg">
               <h3 className="text-2xl font-bold mb-6">About Your Guide</h3>
